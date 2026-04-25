@@ -1,101 +1,921 @@
-OjedaProdutiva
-PRODUTIVIDADE · ORGANIZAÇÃO · MATERNIDADE
-Trabalha mais em menos tempo.
-Sou Carolina Ojeda — COO da Trinity Intercâmbio, mãe e criadora de conteúdo sobre produtividade real. Sem enrolação, sem fórmula mágica.
-VER PRODUTOS
-SEGUIR NO INSTAGRAM
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ojeda Produtiva | Carolina Ojeda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --preto: #060808;
+      --vermelho: #b92717;
+      --laranja: #dd6211;
+      --cinza: #7b7673;
+      --creme: #fbf0d8;
+      --branco: #ffffff;
+    }
 
-ADICIONE SUA FOTO AQUI
-41 PAÍSES
-3 IDIOMAS
-11+ ANOS
-11+
-ANOS EMPREENDENDO
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-41
-PAÍSES VISITADOS
+    html { scroll-behavior: smooth; }
 
-3
-IDIOMAS
+    body {
+      background-color: var(--creme);
+      color: var(--preto);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
 
-2×
-MELHOR AGÊNCIA DO MUNDO
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 48px;
+      background: var(--creme);
+      border-bottom: 1px solid rgba(6,8,8,0.08);
+    }
+    .nav-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.3rem;
+      color: var(--preto);
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+    .nav-logo span { color: var(--vermelho); }
+    .nav-links {
+      display: flex;
+      gap: 36px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--preto);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--vermelho); }
 
-7
-ANOS DA TRINITY
-QUEM É CAROLINA OJEDA
-Produtividade não é estética. É o que faz a vida funcionar.
-Cresci vendo minha mãe organizar pedidos de lingerie num caderninho. Ali aprendi que organização é estrutura, não decoração. Desde os 14 anos, trabalhando — de depósito de construção à Coordenadora de Importação, de Dublin a São Paulo.
-Fundei a Trinity Intercâmbio, premiada 2× como melhor agência do mundo em Londres. Abri e vendi um bar em plena pandemia. E em 2025, me tornei mãe — e aprendi a ser ainda mais produtiva, porque o tempo ficou mais precioso do que nunca.
-Hoje ensino mães empreendedoras a produzir mais, sem se anular.
-PRODUTIVIDADE
-EMPREENDEDORISMO
-MATERNIDADE
-VIAGENS
-IDIOMAS
-Maternidade não é o fim da ambição. Sucesso não pode custar presença, saúde e vida.
-— CAROLINA OJEDA, OJEDAPRODUTIVA
-O QUE EU OFEREÇO
-Produtos & Recursos
-01
-🎙️
-DISPONÍVEL
-Produtividade Sem Pressa
-O podcast para quem quer crescer sem abrir mão do que realmente importa. Episódios diretos ao ponto — sem enrolação.
-OUVIR NO SPOTIFY
-02
-📚
-DISPONÍVEL
-Produtivas Book Club
-Clube de leitura para mulheres empreendedoras que querem evoluir. Lemos juntas livros de desenvolvimento pessoal e profissional.
-QUERO PARTICIPAR
-03
-📓
-EM BREVE
-Planners Produtivas
-Daily planner, planner semanal e planner mensal. Papelaria com propósito para organizar sua vida de verdade.
-CONTEÚDO
-Do blog & Instagram
-VER TUDO NO INSTAGRAM
-📱
-PRODUTIVIDADE
-A rotina que me fez trabalhar menos e entregar mais — sendo mãe de bebê
-LER NO INSTAGRAM
-✈️
-VIAGENS & INTERCÂMBIO
-O que 41 países me ensinaram sobre empreender
-VER NO INSTAGRAM
-🎙️
-PODCAST
-Produtividade Sem Pressa: o episódio que mais acertou em cheio
-OUVIR AGORA
-LINKS
-Tudo num só lugar
-📸
-Instagram @ojedaprodutiva
-↗
-🎙️
-Podcast Produtividade Sem Pressa
-↗
-📚
-Produtivas Book Club
-↗
-🌍
-Trinity Intercâmbio
-↗
-✉️
-info@ojedaprodutiva.com
-↗
-PARA MÃES EMPREENDEDORAS
-Mentoria Produtividade & Alta Performance
-Você gerencia negócio, cuida da casa, cria filhos e ainda quer crescer? Então a mentoria foi feita pra você. Sem julgamento, sem método genérico.
-	•	Diagnóstico real — entendo onde você está perdendo tempo e energia Sistemas que funcionam — para o seu ritmo, sua rotina, sua realidade Clareza e foco — porque sem isso, nenhuma ferramenta resolve Resultado mensurável — mais horas para o que realmente importa
-VAGAS LIMITADAS
-Pronta pra parar de sobreviver e começar a gerir?
-A mentoria está em fase de estruturação. Entre na lista de espera e seja a primeira a saber quando abrir vagas.
-ENTRAR NA LISTA DE ESPERA
-Vamos conversar?
-Parcerias, assessoria de imprensa, palestras ou só dizer oi: info@ojedaprodutiva.com
-📸 INSTAGRAM 🎙️ PODCAST ✉️ E-MAIL
-© 2026 OjedaProdutiva — Carolina Ojeda
-@trinityintercambio
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 72px;
+    }
+    .hero-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 60px 80px 80px;
+    }
+    .hero-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--laranja);
+      margin-bottom: 24px;
+    }
+    .hero-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(3rem, 5vw, 5.5rem);
+      line-height: 1.0;
+      color: var(--preto);
+      letter-spacing: -2px;
+      margin-bottom: 28px;
+    }
+    .hero-title em {
+      font-style: italic;
+      color: var(--vermelho);
+    }
+    .hero-sub {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--cinza);
+      max-width: 420px;
+      margin-bottom: 44px;
+    }
+    .hero-ctas {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      background: var(--vermelho);
+      color: var(--branco);
+      border: none;
+      padding: 16px 32px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn-primary:hover { background: var(--preto); transform: translateY(-2px); }
+    .btn-secondary {
+      background: transparent;
+      color: var(--preto);
+      border: 1.5px solid var(--preto);
+      padding: 16px 32px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-secondary:hover { background: var(--preto); color: var(--creme); }
+
+    .hero-right {
+      background: var(--preto);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .hero-photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+    .hero-photo-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgba(251,240,216,0.2);
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      gap: 12px;
+    }
+    .hero-photo-placeholder svg { opacity: 0.15; }
+    .hero-accent {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      width: 120px;
+      height: 120px;
+      border: 2px solid var(--vermelho);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .hero-accent span {
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--creme);
+      line-height: 1.5;
+    }
+
+    /* ── NUMBERS BAR ── */
+    .numbers-bar {
+      background: var(--preto);
+      padding: 36px 80px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+    }
+    .number-item {
+      text-align: center;
+    }
+    .number-item .num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.8rem;
+      color: var(--laranja);
+      letter-spacing: -2px;
+      line-height: 1;
+    }
+    .number-item .label {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(251,240,216,0.6);
+      margin-top: 6px;
+    }
+    .numbers-divider {
+      width: 1px;
+      height: 48px;
+      background: rgba(251,240,216,0.1);
+    }
+
+    /* ── SOBRE ── */
+    .sobre {
+      padding: 120px 80px;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .sobre-tag {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--vermelho);
+      margin-bottom: 20px;
+    }
+    .sobre-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 3.5vw, 3.2rem);
+      line-height: 1.1;
+      letter-spacing: -1px;
+      margin-bottom: 28px;
+    }
+    .sobre-title em { font-style: italic; color: var(--vermelho); }
+    .sobre-text {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--cinza);
+      margin-bottom: 16px;
+    }
+    .sobre-text strong { color: var(--preto); font-weight: 500; }
+    .sobre-right {
+      position: relative;
+    }
+    .sobre-card {
+      background: var(--preto);
+      color: var(--creme);
+      padding: 48px;
+      position: relative;
+    }
+    .sobre-card::before {
+      content: '"';
+      font-family: 'DM Serif Display', serif;
+      font-size: 8rem;
+      color: var(--vermelho);
+      position: absolute;
+      top: -20px;
+      left: 32px;
+      line-height: 1;
+      opacity: 0.6;
+    }
+    .sobre-card-text {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.4rem;
+      font-style: italic;
+      line-height: 1.5;
+      padding-top: 40px;
+    }
+    .sobre-card-author {
+      margin-top: 24px;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--laranja);
+    }
+    .sobre-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 32px;
+    }
+    .tag-pill {
+      border: 1px solid rgba(6,8,8,0.2);
+      padding: 8px 18px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cinza);
+    }
+
+    /* ── PRODUTOS ── */
+    .produtos {
+      background: var(--preto);
+      padding: 120px 80px;
+    }
+    .section-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 60px;
+    }
+    .section-tag {
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--laranja);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 3vw, 3rem);
+      color: var(--creme);
+      letter-spacing: -1px;
+      line-height: 1.1;
+    }
+    .section-title em { font-style: italic; color: var(--vermelho); }
+    .produtos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+    .produto-card {
+      background: rgba(251,240,216,0.04);
+      padding: 48px 36px;
+      border: 1px solid rgba(251,240,216,0.06);
+      transition: background 0.3s, border-color 0.3s;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+    }
+    .produto-card:hover {
+      background: rgba(185,39,23,0.12);
+      border-color: rgba(185,39,23,0.3);
+    }
+    .produto-card.em-breve {
+      opacity: 0.55;
+      pointer-events: none;
+    }
+    .produto-num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 4rem;
+      color: rgba(251,240,216,0.06);
+      position: absolute;
+      top: 16px; right: 24px;
+      line-height: 1;
+    }
+    .produto-icon {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .produto-badge {
+      display: inline-block;
+      background: var(--laranja);
+      color: var(--branco);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      margin-bottom: 16px;
+    }
+    .produto-badge.breve {
+      background: rgba(251,240,216,0.15);
+      color: rgba(251,240,216,0.5);
+    }
+    .produto-nome {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5rem;
+      color: var(--creme);
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .produto-desc {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: rgba(251,240,216,0.55);
+    }
+    .produto-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 28px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--laranja);
+    }
+    .produto-link::after { content: '→'; }
+
+    /* ── CONTEÚDO / BLOG ── */
+    .conteudo {
+      padding: 120px 80px;
+    }
+    .conteudo-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 2px;
+      margin-top: 60px;
+    }
+    .post-card {
+      background: var(--branco);
+      text-decoration: none;
+      color: var(--preto);
+      transition: transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .post-card:hover { transform: translateY(-4px); }
+    .post-thumb {
+      background: var(--preto);
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+    }
+    .post-thumb.vermelho { background: var(--vermelho); }
+    .post-thumb.laranja { background: var(--laranja); }
+    .post-body {
+      padding: 28px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .post-cat {
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--vermelho);
+      margin-bottom: 10px;
+    }
+    .post-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.2rem;
+      line-height: 1.3;
+      flex: 1;
+    }
+    .post-cta {
+      margin-top: 16px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cinza);
+    }
+    .post-cta::after { content: ' →'; }
+
+    /* ── LINKS ── */
+    .links-section {
+      background: var(--vermelho);
+      padding: 100px 80px;
+    }
+    .links-inner {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .links-section .section-tag { color: rgba(251,240,216,0.6); text-align: center; }
+    .links-section .section-title { color: var(--creme); text-align: center; margin-bottom: 48px; }
+    .link-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(6,8,8,0.15);
+      color: var(--creme);
+      padding: 20px 28px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+    .link-item:hover { background: rgba(6,8,8,0.35); }
+    .link-item-icon { font-size: 1.2rem; }
+    .link-item-arrow { font-size: 0.9rem; opacity: 0.6; }
+
+    /* ── MENTORIA ── */
+    .mentoria {
+      padding: 120px 80px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .mentoria-left { }
+    .mentoria-lista {
+      list-style: none;
+      margin: 28px 0 40px;
+    }
+    .mentoria-lista li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(6,8,8,0.08);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--cinza);
+    }
+    .mentoria-lista li strong { color: var(--preto); }
+    .mentoria-lista li::before {
+      content: '→';
+      color: var(--vermelho);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .mentoria-right {
+      background: var(--preto);
+      padding: 56px 48px;
+      text-align: center;
+    }
+    .mentoria-badge {
+      display: inline-block;
+      background: var(--laranja);
+      color: var(--branco);
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      margin-bottom: 28px;
+    }
+    .mentoria-right h3 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      color: var(--creme);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .mentoria-right p {
+      font-size: 0.9rem;
+      color: rgba(251,240,216,0.5);
+      line-height: 1.7;
+      margin-bottom: 36px;
+    }
+    .mentoria-right .btn-primary {
+      display: inline-block;
+      background: var(--vermelho);
+    }
+
+    /* ── CONTATO ── */
+    .contato {
+      background: var(--preto);
+      padding: 100px 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 60px;
+    }
+    .contato-left h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 3vw, 3rem);
+      color: var(--creme);
+      letter-spacing: -1px;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .contato-left h2 em { font-style: italic; color: var(--laranja); }
+    .contato-left p {
+      font-size: 0.95rem;
+      color: rgba(251,240,216,0.5);
+      line-height: 1.7;
+    }
+    .contato-left a {
+      color: var(--laranja);
+      text-decoration: none;
+    }
+    .contato-social {
+      display: flex;
+      gap: 16px;
+      flex-shrink: 0;
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(251,240,216,0.06);
+      color: var(--creme);
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+    .social-btn:hover { background: var(--vermelho); }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 28px 80px;
+      background: var(--preto);
+      border-top: 1px solid rgba(251,240,216,0.06);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    footer span {
+      font-size: 0.75rem;
+      color: rgba(251,240,216,0.25);
+      letter-spacing: 0.05em;
+    }
+    footer a {
+      font-size: 0.75rem;
+      color: rgba(251,240,216,0.25);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+    footer a:hover { color: var(--laranja); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .hero-left > * {
+      opacity: 0;
+      animation: fadeUp 0.7s ease forwards;
+    }
+    .hero-eyebrow { animation-delay: 0.1s; }
+    .hero-title   { animation-delay: 0.25s; }
+    .hero-sub     { animation-delay: 0.4s; }
+    .hero-ctas    { animation-delay: 0.55s; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      nav { padding: 16px 24px; }
+      .nav-links { display: none; }
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-left { padding: 100px 24px 60px; }
+      .hero-right { min-height: 360px; }
+      .numbers-bar { padding: 28px 24px; flex-wrap: wrap; gap: 24px; }
+      .sobre { grid-template-columns: 1fr; padding: 80px 24px; gap: 40px; }
+      .produtos { padding: 80px 24px; }
+      .produtos-grid { grid-template-columns: 1fr; gap: 2px; }
+      .conteudo { padding: 80px 24px; }
+      .conteudo-grid { grid-template-columns: 1fr; }
+      .links-section { padding: 80px 24px; }
+      .mentoria { grid-template-columns: 1fr; padding: 80px 24px; gap: 40px; }
+      .contato { flex-direction: column; padding: 80px 24px; text-align: center; }
+      .contato-social { flex-wrap: wrap; justify-content: center; }
+      footer { flex-direction: column; gap: 12px; text-align: center; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Ojeda<span>Produtiva</span></a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#produtos">Produtos</a></li>
+    <li><a href="#conteudo">Blog</a></li>
+    <li><a href="#mentoria">Mentoria</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">Produtividade · Organização · Maternidade</p>
+    <h1 class="hero-title">Trabalha<br>mais em<br><em>menos</em><br>tempo.</h1>
+    <p class="hero-sub">Sou Carolina Ojeda — COO da Trinity Intercâmbio, mãe e criadora de conteúdo sobre produtividade real. Sem enrolação, sem fórmula mágica.</p>
+    <div class="hero-ctas">
+      <a href="#produtos" class="btn-primary">Ver produtos</a>
+      <a href="https://instagram.com/ojedaprodutiva" target="_blank" class="btn-secondary">Seguir no Instagram</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <!-- SUBSTITUIR pelo caminho da sua foto: <img src="SUA-FOTO.jpg" alt="Carolina Ojeda" class="hero-photo"> -->
+    <div class="hero-photo-placeholder">
+      <svg width="64" height="64" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+      <span>Adicione sua foto aqui</span>
+    </div>
+    <div class="hero-accent">
+      <span>41 países<br>3 idiomas<br>11+ anos</span>
+    </div>
+  </div>
+</section>
+
+<!-- NÚMEROS -->
+<div class="numbers-bar">
+  <div class="number-item">
+    <div class="num">11+</div>
+    <div class="label">Anos empreendendo</div>
+  </div>
+  <div class="numbers-divider"></div>
+  <div class="number-item">
+    <div class="num">41</div>
+    <div class="label">Países visitados</div>
+  </div>
+  <div class="numbers-divider"></div>
+  <div class="number-item">
+    <div class="num">3</div>
+    <div class="label">Idiomas</div>
+  </div>
+  <div class="numbers-divider"></div>
+  <div class="number-item">
+    <div class="num">2×</div>
+    <div class="label">Melhor agência do mundo</div>
+  </div>
+  <div class="numbers-divider"></div>
+  <div class="number-item">
+    <div class="num">7</div>
+    <div class="label">Anos da Trinity</div>
+  </div>
+</div>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+  <div class="sobre-left">
+    <p class="sobre-tag">Quem é Carolina Ojeda</p>
+    <h2 class="sobre-title">Produtividade não é<br>estética.<br><em>É o que faz<br>a vida funcionar.</em></h2>
+    <p class="sobre-text">Cresci vendo minha mãe organizar pedidos de lingerie num caderninho. Ali aprendi que <strong>organização é estrutura, não decoração</strong>. Desde os 14 anos, trabalhando — de depósito de construção à Coordenadora de Importação, de Dublin a São Paulo.</p>
+    <p class="sobre-text">Fundei a <strong>Trinity Intercâmbio</strong>, premiada 2× como melhor agência do mundo em Londres. Abri e vendi um bar em plena pandemia. E em 2025, me tornei mãe — e aprendi a ser ainda mais produtiva, porque o tempo ficou mais precioso do que nunca.</p>
+    <p class="sobre-text">Hoje ensino mães empreendedoras a <strong>produzir mais, sem se anular</strong>.</p>
+    <div class="sobre-tags">
+      <span class="tag-pill">Produtividade</span>
+      <span class="tag-pill">Empreendedorismo</span>
+      <span class="tag-pill">Maternidade</span>
+      <span class="tag-pill">Viagens</span>
+      <span class="tag-pill">Idiomas</span>
+    </div>
+  </div>
+  <div class="sobre-right">
+    <div class="sobre-card">
+      <div class="sobre-card-text">Maternidade não é o fim da ambição. Sucesso não pode custar presença, saúde e vida.</div>
+      <div class="sobre-card-author">— Carolina Ojeda, OjedaProdutiva</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section class="produtos" id="produtos">
+  <div class="section-header">
+    <div>
+      <p class="section-tag">O que eu ofereço</p>
+      <h2 class="section-title">Produtos &<br><em>Recursos</em></h2>
+    </div>
+  </div>
+  <div class="produtos-grid">
+
+    <a href="https://open.spotify.com" target="_blank" class="produto-card">
+      <span class="produto-num">01</span>
+      <div class="produto-icon">🎙️</div>
+      <span class="produto-badge">Disponível</span>
+      <h3 class="produto-nome">Produtividade<br>Sem Pressa</h3>
+      <p class="produto-desc">O podcast para quem quer crescer sem abrir mão do que realmente importa. Episódios diretos ao ponto — sem enrolação.</p>
+      <span class="produto-link">Ouvir no Spotify</span>
+    </a>
+
+    <a href="#" class="produto-card">
+      <span class="produto-num">02</span>
+      <div class="produto-icon">📚</div>
+      <span class="produto-badge">Disponível</span>
+      <h3 class="produto-nome">Produtivas<br>Book Club</h3>
+      <p class="produto-desc">Clube de leitura para mulheres empreendedoras que querem evoluir. Lemos juntas livros de desenvolvimento pessoal e profissional.</p>
+      <span class="produto-link">Quero participar</span>
+    </a>
+
+    <div class="produto-card em-breve">
+      <span class="produto-num">03</span>
+      <div class="produto-icon">📓</div>
+      <span class="produto-badge breve">Em breve</span>
+      <h3 class="produto-nome">Planners<br>Produtivas</h3>
+      <p class="produto-desc">Daily planner, planner semanal e planner mensal. Papelaria com propósito para organizar sua vida de verdade.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="conteudo" id="conteudo">
+  <div class="section-header">
+    <div>
+      <p class="section-tag">Conteúdo</p>
+      <h2 class="section-title">Do blog &<br><em>Instagram</em></h2>
+    </div>
+    <a href="https://instagram.com/ojedaprodutiva" target="_blank" class="btn-secondary" style="color:var(--preto); border-color: var(--preto);">Ver tudo no Instagram</a>
+  </div>
+  <div class="conteudo-grid">
+    <a href="https://instagram.com/ojedaprodutiva" target="_blank" class="post-card">
+      <div class="post-thumb vermelho" style="height:260px">📱</div>
+      <div class="post-body">
+        <p class="post-cat">Produtividade</p>
+        <h3 class="post-title">A rotina que me fez trabalhar menos e entregar mais — sendo mãe de bebê</h3>
+        <span class="post-cta">Ler no Instagram</span>
+      </div>
+    </a>
+    <a href="https://instagram.com/ojedaprodutiva" target="_blank" class="post-card">
+      <div class="post-thumb laranja">✈️</div>
+      <div class="post-body">
+        <p class="post-cat">Viagens & Intercâmbio</p>
+        <h3 class="post-title">O que 41 países me ensinaram sobre empreender</h3>
+        <span class="post-cta">Ver no Instagram</span>
+      </div>
+    </a>
+    <a href="https://open.spotify.com" target="_blank" class="post-card">
+      <div class="post-thumb" style="background:var(--cinza)">🎙️</div>
+      <div class="post-body">
+        <p class="post-cat">Podcast</p>
+        <h3 class="post-title">Produtividade Sem Pressa: o episódio que mais acertou em cheio</h3>
+        <span class="post-cta">Ouvir agora</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- LINKS RÁPIDOS -->
+<section class="links-section" id="links">
+  <div class="links-inner">
+    <p class="section-tag">Links</p>
+    <h2 class="section-title">Tudo num<br><em>só lugar</em></h2>
+    <div class="link-list">
+      <a href="https://instagram.com/ojedaprodutiva" target="_blank" class="link-item">
+        <span class="link-item-icon">📸</span>
+        <span>Instagram @ojedaprodutiva</span>
+        <span class="link-item-arrow">↗</span>
+      </a>
+      <a href="https://open.spotify.com" target="_blank" class="link-item">
+        <span class="link-item-icon">🎙️</span>
+        <span>Podcast Produtividade Sem Pressa</span>
+        <span class="link-item-arrow">↗</span>
+      </a>
+      <a href="#" class="link-item">
+        <span class="link-item-icon">📚</span>
+        <span>Produtivas Book Club</span>
+        <span class="link-item-arrow">↗</span>
+      </a>
+      <a href="https://trinityintercambio.com.br" target="_blank" class="link-item">
+        <span class="link-item-icon">🌍</span>
+        <span>Trinity Intercâmbio</span>
+        <span class="link-item-arrow">↗</span>
+      </a>
+      <a href="mailto:info@ojedaprodutiva.com" class="link-item">
+        <span class="link-item-icon">✉️</span>
+        <span>info@ojedaprodutiva.com</span>
+        <span class="link-item-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MENTORIA -->
+<section class="mentoria" id="mentoria">
+  <div class="mentoria-left">
+    <p class="sobre-tag">Para mães empreendedoras</p>
+    <h2 class="sobre-title">Mentoria<br><em>Produtividade<br>& Alta Performance</em></h2>
+    <p class="sobre-text">Você gerencia negócio, cuida da casa, cria filhos e ainda quer crescer? Então a mentoria foi feita pra você. Sem julgamento, sem método genérico.</p>
+    <ul class="mentoria-lista">
+      <li><div><strong>Diagnóstico real</strong> — entendo onde você está perdendo tempo e energia</div></li>
+      <li><div><strong>Sistemas que funcionam</strong> — para o seu ritmo, sua rotina, sua realidade</div></li>
+      <li><div><strong>Clareza e foco</strong> — porque sem isso, nenhuma ferramenta resolve</div></li>
+      <li><div><strong>Resultado mensurável</strong> — mais horas para o que realmente importa</div></li>
+    </ul>
+  </div>
+  <div class="mentoria-right">
+    <span class="mentoria-badge">Vagas limitadas</span>
+    <h3>Pronta pra parar de sobreviver e começar a gerir?</h3>
+    <p>A mentoria está em fase de estruturação. Entre na lista de espera e seja a primeira a saber quando abrir vagas.</p>
+    <a href="mailto:info@ojedaprodutiva.com?subject=Lista de espera - Mentoria" class="btn-primary">Entrar na lista de espera</a>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contato" id="contato">
+  <div class="contato-left">
+    <h2>Vamos<br><em>conversar?</em></h2>
+    <p>Parcerias, assessoria de imprensa, palestras ou só dizer oi:<br>
+    <a href="mailto:info@ojedaprodutiva.com">info@ojedaprodutiva.com</a></p>
+  </div>
+  <div class="contato-social">
+    <a href="https://instagram.com/ojedaprodutiva" target="_blank" class="social-btn">
+      📸 Instagram
+    </a>
+    <a href="https://open.spotify.com" target="_blank" class="social-btn">
+      🎙️ Podcast
+    </a>
+    <a href="mailto:info@ojedaprodutiva.com" class="social-btn">
+      ✉️ E-mail
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2026 OjedaProdutiva — Carolina Ojeda</span>
+  <a href="https://instagram.com/trinityintercambio" target="_blank">@trinityintercambio</a>
+</footer>
+
+</body>
+</html>
